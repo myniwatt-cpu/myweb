@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
-// import foods from "./data/foods.js";
-// import Card from "./component/Card";
+import beers from "./data/Beers.js";
+import Card from "./component/Card";
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
           <section className="flex flex-col justify-center bg-gradient-to-r from-blue-600 to-purple-400 text-white min-h-full py-37">
             <div className="container mx-auto px-4 text-center py-20">
               <h1 className="text-4xl font-bold mb-4">
-                Welcome to Khing Restaurant Website
+                Welcome to Our Website
               </h1>
               <p className="text-2xl mb-8">
-                Let's we recommend the best thai foods to you
+                Recommed 20 Beers Let's View
               </p>
               <button className="bg-white text-black py-3 px-8 rounded-full font-semibold hover:bg-black transition hover:text-white">
                 Views
@@ -28,22 +28,22 @@ function App() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold mb-4 text-gray-800">
-                  Welcome to Khing Restaurant
+                  Welcome to Our Website
                   <p className="text-gray-600 text-lg mt-2">
-                    The Best Foods in Thailand let's try ! !
+                    20 Beers
                   </p>
                 </h2>
               </div>
 
-              {/* <div className='flex flex-wrap justify-center gap-14'>
-                {foods.map((f) => (
+              <div className='flex flex-wrap justify-center gap-14'>
+                {beers.map((b) => (
                   <Card 
-                  key={f.id}
-                  image={f.image}
-                  name={f.name}
+                  key={b.id}
+                  image={b.image}
+                  name={b.name}
                   />
                 ))}
-              </div> */}
+              </div>
             </div>
           </section>
         </main>
