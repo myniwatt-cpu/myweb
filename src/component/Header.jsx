@@ -8,7 +8,7 @@ function Header() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold">Drink Bar</h1>
-              <p className="mt-2 text-sm">Recommed Beers</p>
+              <p className="mt-2 text-sm">Recommed alcohol</p>
             </div>
             <nav>
               <ul className="flex space-x-6 text-lg">

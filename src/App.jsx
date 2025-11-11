@@ -16,7 +16,7 @@ function App() {
                 Welcome to Our Website
               </h1>
               <p className="text-2xl mb-8">
-                Recommed 20 Beers Let's View
+                Recommed 20 alcohol Let's View
               </p>
               <button className="bg-white text-black py-3 px-8 rounded-full font-semibold hover:bg-black transition hover:text-white">
                 Views
@@ -30,7 +30,7 @@ function App() {
                 <h2 className="text-4xl font-bold mb-4 text-gray-800">
                   Welcome to Our Website
                   <p className="text-gray-600 text-lg mt-2">
-                    20 Beers
+                    20 alcohol
                   </p>
                 </h2>
               </div>

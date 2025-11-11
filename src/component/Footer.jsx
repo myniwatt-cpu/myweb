@@ -8,12 +8,12 @@ function Footer() {
             {/* 1  */}
             <div className='flex-1'>
                 <h1 className='font-bold text-xl'>Drink Bar Website</h1>
-                <p>Recommend for people who love beers like me</p>
+                <p>Recommend for people who love alcohol like me</p>
             </div>
             {/* 2 */}
             <div className='flex-1'>
                 <h1 className='font-bold text-xl'>About</h1>
-                <p>i like beers</p>
+                <p>i like alcohol</p>
             </div>
             {/* 3 */}
             <div className='flex-1'>
