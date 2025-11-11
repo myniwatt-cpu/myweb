@@ -10,7 +10,7 @@ function App() {
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="mt-auto">
-          <section className="flex flex-col justify-center bg-gradient-to-r from-blue-600 to-purple-400 text-white min-h-full py-37">
+          <section className="flex flex-col justify-center bg-gradient-to-r from-gray-900 to-gray-400 text-white min-h-full py-37">
             <div className="container mx-auto px-4 text-center py-20">
               <h1 className="text-4xl font-bold mb-4">
                 Welcome to Our Website
